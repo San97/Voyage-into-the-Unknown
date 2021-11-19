@@ -1,0 +1,9 @@
+Q9 contains 3 more subdirectories but contains files with similar functions but returning different values as per
+needed. Each subdirectory contains  4 main kinds of files.
+1.) repeated_astar_for_q9.py: This is used to perform tests on repeated forward A* using a specific heuristic.
+2.) repeated_astar_for_q9_weighted.py: This is used to perform tests on repeated forward A* using a specific
+                                       inadmissible heuristic.
+3.)set_attr_new_maze_.py: This is used to set attributes of admissible heuristics according to choice.
+4.)set_attr_new_maze_weighted_.py: This is used to set attributes of inadmissible heuristics according to choice.
+
+For all inadmissible heuristic, all these 4 types of files are used.

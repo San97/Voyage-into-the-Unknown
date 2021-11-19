@@ -1,0 +1,22 @@
+This is the main directory which contains all the main files containing functions to implement A* algorithms, Repeated
+A* algorithm, setting attributes, etc. Below is the brief description for each sub directory and .py files:
+
+1.) BFS: This subdirectory contains 2 main .py files for BFS algorithm and Repeated BFS Algorithm implementation. It
+         also contains set_attributes directory for setting attributes of maze, a create_maze.py to create a maze(this
+         is different from the normal maze because here the class created for a single cell doesn't contain f(n), g(n),
+         h(n) variables because they are not needed in BFS.
+2.) Q9: This contains 2 more subdirectory namely weighted_chebyshev, weighted_euclidean and weighted_manhattan which
+        contains implementation for calculations on inadmissible heuristics. Please refer to how to use.txt file for
+        further info.
+3.) set_attributes: This contains various .py files that are used according to their usages in various cases like when
+                    using wighted chebyshev(inadmissible) the file set_attr_weighted_chebyshev.py is used to set
+                    attributes accordingly and likewise other files can be used to set attributes differently according
+                    to the needs.
+4.) AStar.py: This contains the function of AStar algorithm.
+5.) constants.py: This is used to set infinity variable INF for ease of usages when need arises.
+6.) create_maze.py: This contains a class named Cell which defines the structure of each cell of the maze. It also
+                    contains a function create_maze that creates a maze of objects of Cell class.
+7.) Repeated_AStar.py: This contains a function repeated_forward_astar.py for the implementation of Repeated Forward
+                        A* algorithm.
+8.) Repeated_AStar_Limited_FOV: This contains a function repeated_forward_astar.py for the implementation of
+                                Repeated Forward A* algorithm with decreased field of view used for Q7.

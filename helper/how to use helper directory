@@ -1,0 +1,12 @@
+The helper directory consists of helper functions for calculating heuristics for different heuristics, calculate state
+of different cells in maze including start and goal node and calculating g(n) value.
+
+The directory contains 2 more sub directory:
+
+1.)for_new_maze: This directory contains the functions to calculate attributes for the newly created maze in the
+                 Repeated A* Algorithm. This new maze will be used by agent and will be updated according to the
+                 information received. The directory contains one more sub directory:
+
+                 1.)heuristics: This contains functions to various heuristics to calculate them.
+
+2.) heuristics: This directory contains functions to calculate the heuristics for the actual maze(full gridworld).

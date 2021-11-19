@@ -1,0 +1,10 @@
+This is the directory where all the .py files are used to run different tests according to the needs. Just go to the
+specific question number file and run the tests. For example, for running a test on Q6, go to that directory and then
+select for which sub question the test has to be run.
+
+Eg: To run a test on q7 and within q7, we want the graph and data for Density vs Average Number of cells Processed which
+    is the 4th sub question in the category, then follow the path tests->Q7->test_for_Q7(4).py.
+
+Likewise follow the path to run a specific test.
+
+BFS_tests contains 2 more subdirectory directing to Q6 and Q7 tests.
